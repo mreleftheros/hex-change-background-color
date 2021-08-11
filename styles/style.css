@@ -13,4 +13,31 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 20rem;
+}
+.content__message {
+  font-size: 5rem;
+}
+.content__btn {
+  font-size: 2rem;
+  padding: 2rem;
+  background: transparent;
+  border: solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: background 0.3s ease-in;
+}
+.content__btn:hover {
+  background: rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=style.css.map */
